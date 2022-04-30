@@ -16,6 +16,6 @@ module.exports = {
     '@typescript-eslint',
   ],
   rules: {
-    'no-magic-numbers': 2,
+    // 'no-magic-numbers': 2,
   },
 };
