@@ -18,6 +18,7 @@ app.whenReady().then(() => {
   createWindow();
 
   app.on('activate', () => {
+    // eslint-disable-next-line no-magic-numbers
     if (BrowserWindow.getAllWindows().length === 0) createWindow();
   });
 });
