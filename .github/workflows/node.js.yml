@@ -27,5 +27,6 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: curl -fsSL https://get.pnpm.io/install.sh | sh -
+    - run: source ~/.bashrc
     - run: pnpm install
     - run: pnpm test
